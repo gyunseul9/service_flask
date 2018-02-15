@@ -15,5 +15,16 @@
 	</head>
 	<body>
 		pip3 install mixpanel, newrelic, google analytics - 2018.02.15 5
+		pysql 2018.2.15 15
+		<table>
+            {% for item in data %}
+            <tr>
+                <td>{{item[0]}}</td>
+                <td>{{item[1]}}</td>
+                <td>{{item[2]}}</td>
+                <td>{{item[3]}}</td>
+            </tr>
+	    	{% endfor %}
+		</table>
 	</body>
 </html>

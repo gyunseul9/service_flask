@@ -47,6 +47,7 @@ pyflakes==1.5.0
 Pygments==2.2.0
 pygobject==3.12.0
 pylint==1.7.2
+PyMySQL==0.8.0
 pyparsing==2.0.1
 python-apt===0.9.3.5ubuntu2
 python-dateutil==2.6.0

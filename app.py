@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from mixpanel import Mixpanel
 import sys
-#import pymysql
+import pymysql
 import re
 import datetime
 
@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-	'''
+	
     host = 'localhost'
     user = 'gyunseul9'
     password = 'gyunseul9'
@@ -36,9 +36,6 @@ def main():
     conn.close()
 
     return render_template('index.html', data=data)
-	END'''
-	
-	return render_template('index.html')
 
 if __name__ == '__main__':
 	app.run('0.0.0.0',80,debug=True)
