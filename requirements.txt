@@ -1,6 +1,6 @@
 astroid==1.5.3
 backports-abc==0.5
-bleach==2.0.0
+bleach==3.1.1
 chardet==2.2.1
 colorama==0.2.5
 decorator==4.0.11
